@@ -1,0 +1,9 @@
+name : hello
+on : push
+jobs :
+  hello:
+   runs-on: ubunto-lastest
+    steps:
+     -uses: actions-checkout@v1
+     -name : print hello
+     run : echo hello ahmed
